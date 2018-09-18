@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+body {
+    font-size: 16px;
+}
+
+#header {
+    margin: 20px 100px 0px 100px;
+}
+
+.menu {
+    margin-top: 40px;
+    float: right;
+    font-size: 1.6em;
+}
+
+
+#textDiv {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #f6f6f6;
+}
+
+#mainDiv{
+    width: 100%;
+    padding-left: 8%;
+}
+
+.box1 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: #e6e5e3;
+    transition: 1s;
+}
+
+.box1:hover{
+    background: url(/img/eye.png)no-repeat;
+    transition: 1s;
+    opacity: 80%;
+    background-color: aqua;
+}
+
+.box2 {
+    float: left;
+    width: 400px;
+    height: 400px;
+    background-color: #efefef;
+    transition: 1s;
+}
+
+.box2:hover{
+    background: url(/img/eye.png)no-repeat;
+    transition: 1s;
+    opacity: 80%;
+    background-color: aqua;
+}
+
+
+#footer {
+    min-width: 100%;
+    max-width: 100%;
+    float: left;
+    background-color: black;
+    color: white;
+}
+
+.footerRights {
+    float: left;
+    margin: 50px 0px 50px 50px;
+}
+
+.footerContactInfo {
+    padding: 70px 0px 0px 150px;    
+    float: left;
+}
+
+.footerLinks {
+    float: left;
+    margin: 50px 0px 0px 1000px;
+}
+
+.footerColumn {
+    float: left;
+    font-size: 1.4em;    
+    padding-right: 100px;
+}
+
+.rights {
+    padding-top: 20px;
+}
+
+.logo {
+    transition: 0.5s;    
+    margin: 10px 20px 0px 0px;    
+}
+
+.logo:hover {
+    transition: 0.5s;
+    width: 7%;
+    height: 7%;
+}
+
+
+
+.inDiv {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+.test {
+    color: white;
+}
+
+.menuColor {
+    transition: 0.5s;
+    color: black;
+    margin-right: 5px;
+}
+
+.menuColor:hover {
+    transition: 0.5s;
+    font-size: 1.1em;
+    color: aqua;
+}
+
+.bigText {
+    font-size: 2em;
+}
+
+.img1:hover {
+    background: url(/img/eye.png)no-repeat;
+}
